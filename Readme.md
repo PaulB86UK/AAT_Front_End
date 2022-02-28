@@ -27,6 +27,8 @@ Add the Dap Provider Part to the App.tsx file and do the modifications listed in
 
 const networkName = chainId ? helperConfig[chainId] : "dev" This means that if the chainID exists use helperConfig[chainId] otherwise use "dev"
 
+-->yarn add ethers command
+
 
 Pending Steps
 
