@@ -22,7 +22,7 @@ This means Header is a function = () and => {} what the function is going to do
 *28/02/22
 
 Add the Dap Provider Part to the App.tsx file and do the modifications listed in the video, add dap provider etc.
-
+-add the material ui library with yarn add @material-ui/core , also can do npm install @material-ui/core
 
 
 

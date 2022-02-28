@@ -1,6 +1,7 @@
 import React from 'react';
 import { DAppProvider, ChainId } from "@usedapp/core"
 import { Header } from "./components/Header"
+import {Container} from "@material-ui/core"
 
 function App() {
   return (
@@ -8,7 +9,9 @@ function App() {
       supportedChains: [ChainId.Kovan, ChainId.Rinkeby]
     }}>
       <Header />
-      <div>Hi!</div>
+      <Container maxWidth="md">
+        <div>Mi primera pagina web con TypeScript!</div>
+      </Container>
     </DAppProvider>
   );
 }
