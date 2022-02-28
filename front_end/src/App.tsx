@@ -2,7 +2,7 @@ import React from 'react';
 import { DAppProvider, ChainId } from "@usedapp/core"
 import { Header } from "./components/Header"
 import {Container} from "@material-ui/core"
-
+import {Main} from "./components/Main"
 function App() {
   return (
     <DAppProvider config={{
@@ -11,6 +11,7 @@ function App() {
       <Header />
       <Container maxWidth="md">
         <div>Mi primera pagina web con TypeScript!</div>
+        <Main/>
       </Container>
     </DAppProvider>
   );
