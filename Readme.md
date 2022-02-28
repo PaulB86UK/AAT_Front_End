@@ -13,6 +13,10 @@ yarn.lock is automatic created/
 -App.tsx place to write code
 -yarn start launchs the website
 
+export const Header = () => {
+    
+}
+This means Header is a function = () and => {} what the function is going to do
 
 
 *28/02/22

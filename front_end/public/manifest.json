@@ -1,6 +1,6 @@
 {
-  "short_name": "AAT App",
-  "name": "AAT Token",
+  "short_name": "React App",
+  "name": "Create React App Sample",
   "icons": [
     {
       "src": "favicon.ico",
